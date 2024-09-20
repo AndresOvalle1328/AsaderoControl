@@ -1,0 +1,2 @@
+# AsaderoControl
+Proyecto aplicado talentotech

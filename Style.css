@@ -28,7 +28,7 @@ body{
     border-bottom: 1px solid;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.controls{
+.form-login input{
     width: 310px;
     border: 2px solid black;
     margin-bottom: 15px;

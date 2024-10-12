@@ -17,6 +17,8 @@
       align-items: center;
       height: 85px;
       padding: 5px 10%;
+      margin:50px
+
    }
    
    .header .logo{
@@ -73,3 +75,5 @@
        color: #ffbc0e;
        transform: scale(1.1);
    }
+
+   

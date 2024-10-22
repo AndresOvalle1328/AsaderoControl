@@ -1,0 +1,34 @@
+.tabla{
+    border-radius: 5px;
+    background-color:rgba(255,0,0,0.6);
+    border-radius: 10px;
+    
+   
+    
+}
+
+.button{
+    padding: 15px;
+}
+
+tbody tr td select{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+body{
+    background: url("/imagenes/fondo.png") no-repeat center center fixed ;
+    background-size: cover;
+    
+    
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+

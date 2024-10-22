@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INGRESO</title>
+    <link rel="stylesheet" href="css/tabla-ingresos.css">
+</head>
+<body>
+    <h1>tabla de ingresos</h1>
+    <table class="tabla" id="tabla-body" border="">
+        <thead id="tabla-thead">
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Categoria</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Fecha de ingreso</th>
+                <th scope="col">Fecha de Vencimiento</th>
+            
+            </tr>
+        </thead>
+        <tbody id="tabla-tbody">
+            <tr>
+                <td><select name="nombre" id="nombre">
+                    <option value="0">seleciona producto</option>
+                    <option value="1">Carne de res</option>
+                    <option value="2">Pechuga</option>
+                    <option value="3">Mojarra</option>
+                    <option value="4">Chuleta</option>
+                    <option value="5">Tilapia</option>
+                    <option value="6">Otros</option>
+                </select></td>
+                <td><select name="nombre" id="nombre">
+                    <option value="0">seleciona categoria</option>
+                    <option value="1">Carnicos</option>
+                    <option value="2">insumo</option>
+                    <option value="3">Mojarra</option>
+                    <option value="4">Chuleta</option>
+                    <option value="5">Tilapia</option>
+                    <option value="6">Otros</option>
+                <td><input type="number" min="1"></td>
+                <td><input type="date"></td>
+                <td><input type="date"></td>
+                <td><button class="button" onclick="agregarProducto()">Agregar </button></td>
+
+            </tr>
+            
+        </tbody>
+       
+
+    </table>
+</body>
+</html>

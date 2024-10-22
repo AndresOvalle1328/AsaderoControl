@@ -55,7 +55,7 @@ a{
     margin: 0 auto;
 }
 .cerrarSesion{
-    background-color: yellow;
+    background-color: rgba(255,0,0,0.6);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     margin: 20px;
@@ -72,7 +72,7 @@ a{
 
 .borde  {
     border-radius: 15px;
-    background-color: #34495e ;
+    background-color: rgba(255,0,0,0.6);
 }
 
 .borde  thead{

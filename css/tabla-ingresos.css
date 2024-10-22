@@ -32,3 +32,36 @@ h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.ingresar {
+    margin-left: 10px; 
+    padding: 10px 20px; 
+    background-color: rgba(255,0,0,0.6); 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+
+}
+    
+
+.editar{
+    margin-left: 10px; 
+    padding: 10px 20px; 
+    background-color: rgba(255,0,0,0.6); 
+    color: white;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+
+} 
+
+.eliminar{
+    margin-left: 10px; 
+    padding: 10px 20px; 
+    background-color:rgba(255,0,0,0.6);
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+
+}

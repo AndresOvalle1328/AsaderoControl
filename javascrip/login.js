@@ -3,5 +3,5 @@ function validaRegistro(){
     console.log(usuario);
     let contrasena=document.getElementById("contrasena").value;
     console.log(contrasena);
-    window.location.href="Pagina-principal.html";
+    window.location.href="pagina-principal.html";
 }

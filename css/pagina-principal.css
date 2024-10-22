@@ -1,0 +1,87 @@
+body {
+    background: url(/imagenes/fondo.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+  }
+form {
+    background-color: #ee9999;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 300px;
+    margin: 100px ;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    float: left;
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+/* Estilo para el botón */
+button {
+    background-color: #b91616;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #e70c0c;
+}
+
+/* Estilos responsive */
+/* @media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    button {
+        font-size: 14px;
+    }
+} */
+
+.titulo{
+    margin: 40px 30px 20px 150px;
+    padding: 2px 3px 4px 2px;    
+    color: #4e4946;
+    
+}
+
+
+.ingreso{
+    background-color: #e70c0c;
+    float: left;
+    
+}
+

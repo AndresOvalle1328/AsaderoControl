@@ -1,239 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Principal</title>
-    <link rel="stylesheet" href="css/Style.css">
+    <title>Inventario de Productos</title>
+    <link rel="stylesheet" href="/css/pagina-principal.css">
 </head>
-
 <body>
-    <button class="cerrarSesion"><a href="index.HTML">Cerrar sesion</a></button>
+    <h1 class="titulo">Inventario</h1>
+    <form  class="formulario">
+        <label>Nombre del producto:</label>
+        <input type="text" id="nombre"><br><br>
+        <label>Categoría:</label>
+        <input type="text" id="categoria"><br><br>
+        <label>Cantidad:</label>
+        <input type="number" id="cantidad"><br><br>
+        <label>Fecha de ingreso:</label>
+        <input type="date" id="fechaIngreso"><br><br>
+        <label>Fecha de vencimiento:</label>
+        <input type="date" id="fechaVencimiento"><br><br>
+        <button type="button"  onclick="agregarProducto()">Agregar producto</button>
+    </form>
+    
+    
+    <table border="1" class="ingreso">
+        <h3>Detalles del Inventario</h3>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Categoría</th>
+                <th>Cantidad</th>
+                <th>Fecha de ingreso</th>
+                <th>Fecha de vencimiento</th>
+                <th>Acciones</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody   id="inventario-body">
+            <!-- Aquí se agregarán las filas dinámicamente -->
+        </tbody>
+    </table>
 
-    <section>
-      
-       
-            <table class="contorno" border="2">
-                <thead>
-                    <tr>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Categoria</th>
-                        <th scope="col">Cantidad de ingreso</th>
-                        <th scope="col">Fecha de ingreso</th>
-                        <th scope="col">Fecha Vencimiento</th>
-                        <th scope="col">TOTAL</th>
-                    </tr>
-                </thead>
-                <tbody id="inventory-body">
-                    <tr>
-                        <td>PECHUGA</td>
-                        <td>Carnicos</td>
-
-                        <th>
-                            <p></p>
-
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p>resultado total</p>
-
-
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>MOJARRA</td>
-                        <td>Carnicos</td>
-
-                        <th>
-
-                            <p></p>
-
-                        </th>
-                        <th>
-                            <p></p>
-
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p>resultado total</p>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>TILAPIA</td>
-                        <td>Carnicos</td>
-
-                        <th>
-                            <p></p>
-
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p>resultado total</p>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>ACEITE DE OLIVA</td>
-                        <td>Ingredientes</td>
-
-                        <th>
-                            <p></p>
-
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p>resultado total</p>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>PECHUGA</td>
-                        <td>Carnicos</td>
-
-                        <th>
-                            <p></p>
-
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p>resultado total</p>
-                    </tr>
-                    <tr>
-                        <td>PECHUGA</td>
-                        <td>Carnicos</td>
-
-                        <th>
-                            <p></p>
-
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p>resultado total</p>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>PECHUGA</td>
-                        <td>Carnicos</td>
-
-                        <th>
-                            <p></p>
-
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p>resultado total</p>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>PECHUGA</td>
-                        <td>Carnicos</td>
-
-                        <th>
-                            <p></p>
-
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p>resultado total</p>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>PECHUGA</td>
-                        <td>Carnicos</td>
-
-                        <th>
-                            <p></p>
-
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p>resultado total</p>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>PECHUGA</td>
-                        <td>Carnicos</td>
-
-                        <th>
-                            <p></p>
-
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>CHULETA</td>
-                        <td>Carnicos</td>
-
-                        <th>
-                            <p></p>
-
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                        <th>
-                            <p></p>
-                        </th>
-                    </tr>
-                </tbody>
-            </table>
-        
-    </section>
-    <script src="funciones.js"></script>
-
-
+    <script src="/javascrip/pagina-principal.js"></script>
 </body>
-
 </html>
+

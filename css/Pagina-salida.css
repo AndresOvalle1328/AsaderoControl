@@ -70,7 +70,7 @@ h1{
 }
 
 body {
-    background: url(/imagenes/fondo.png); 
+    background: url(/AsaderoControl/imagenes/fondo.png); 
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;

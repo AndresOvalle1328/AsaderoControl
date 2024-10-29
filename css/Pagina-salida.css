@@ -70,7 +70,7 @@ h1{
 }
 
 body {
-    background: url(/AsaderoControl/imagenes/fondo.png); 
+    background: url(/imagenes/fondo.png); 
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -159,6 +159,9 @@ button:hover {
     
 }
 
-.categoria{
-    margin: 15px;
+.Categoria{
+    margin: 1px;
+    padding: 1px;
+    width: 215px;
+    height: 40px;
 }
